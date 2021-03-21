@@ -2,7 +2,7 @@ import * as React from "react";
 import NextHead from "next/head";
 import { GoogleFonts } from "next-google-fonts";
 
-export const Head = ({ children, title }) => (
+const Head = ({ children, title }) => (
     <React.Fragment>
         <GoogleFonts href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet" />
         <NextHead>
@@ -27,3 +27,5 @@ export const Head = ({ children, title }) => (
         </NextHead>
     </React.Fragment>
 );
+
+export default Head;

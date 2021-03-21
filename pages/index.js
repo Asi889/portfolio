@@ -1,11 +1,10 @@
 import { useEffect } from 'react';
-import { Head } from "./components/Head"
+import  Head  from "./components/Head"
 import NavBar from './components/NavBar';
 import WelcomePage from './components/WelcomePage';
 import AboutPage from './components/AboutPage';
 import ProjectPage from './components/ProjectPage';
 import StarWarsPage from './components/StarWarsPage';
-import { consoleText } from "./components/consoleText";
 
 class TextScramble {
   constructor(el) {
