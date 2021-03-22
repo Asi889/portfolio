@@ -185,8 +185,10 @@ body {
   .mario{
     width: 65px;
     height: 65px;
-    margin-top: 0;
-    margin-left: 30px;
+    /* margin-top: 0;
+    margin-left: 30px; */
+    margin-top: -60px;
+    margin-left: 166px;
   }
 
 }
@@ -200,6 +202,14 @@ body {
 @media screen and (max-width: 777px){
   .topCHi{font-size: 3.8125rem;color: #1d1d1d;font-family: 'Galindo', cursive; }
 }
+.nav{
+  margin-top: 20px;
+}
+@media screen and (max-width: 777px){
+  .nav{
+    margin-top: 1px;
+  }
+}
 
 .aka{
   color: #1d1d1d;
@@ -211,9 +221,10 @@ body {
   .aka{
     color: #1d1d1d;
     display: block;
-    margin-left: 4px;
+    /* margin-left: 4px; */
     font-family: 'Galindo', cursive;
     margin-left: 10px;
+    margin-top: 0px;
 
   }
 }
@@ -230,6 +241,7 @@ body {
     font-size: 3.8125rem;
     display: inline-block;
     font-family: 'Galindo', cursive;
+    margin-top: -3px;
   }
 }
 .console-container {
@@ -268,6 +280,7 @@ body {
     background-color: #efefef;
     margin-left: 0px; 
     margin-top: 20px;
+    /* visibility: */
   }
   
 }
@@ -575,7 +588,7 @@ li {
     display:block;
     color:#1D1D1D;
     text-decoration: underline ;
-    margin-top: 38px;
+    margin-top: 20px;
     float: right;
   }
 };

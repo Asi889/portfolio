@@ -12,7 +12,7 @@ const NavBar = function () {
               <span className="icon-bar"></span>
             </button>
             <a className="navbar-brand" href="https://github.com/Asi889/gigMeApp/raw/47db7a8d85caa01ab30758b7fc5d7276f39d75bb/AsafMaromCV-_wqt2sk.pdf" download="AsafMaromCV.pdf">Asaf Marom</a>
-            <img className="mario" src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1616273564/Retro-Mario-2-icon_jvhhym.png"></img>
+            {/* <img className="mario" src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1616273564/Retro-Mario-2-icon_jvhhym.png"></img> */}
           </div>
           <div>
             <div className="collapse navbar-collapse" id="myNavbar">
@@ -24,7 +24,9 @@ const NavBar = function () {
                 
               </ul>
             </div>
+
           </div>
+            <img className="mario" src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1616273564/Retro-Mario-2-icon_jvhhym.png"></img>
         </div>
       </nav>
     </body>
