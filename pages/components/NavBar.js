@@ -2,7 +2,7 @@
 
 const NavBar = function () {
   return (
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div data-spy="scroll" data-target=".navbar" data-offset="50">
       <nav className="navbar navbar-inverse navbar-fixed-top">
         <div className="container-fluid">
           <div className="navbar-header">
@@ -29,7 +29,7 @@ const NavBar = function () {
             <img className="mario" src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1616273564/Retro-Mario-2-icon_jvhhym.png"></img>
         </div>
       </nav>
-    </body>
+    </div>
 
   )
 };
