@@ -94,7 +94,7 @@ const AboutPage = () => {
 
             </div>
             <div className="about_img_pic">
-                <img id="idabout_pic" className="about_pic" src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1615877381/profilepic_zmo3o7.png" alt=""></img>
+                <img id="idabout_pic" className="about_pic" src="https://res.cloudinary.com/dvdzjj8jo/image/upload/c_crop,h_1370,w_2048/v1616576685/%D7%97%D7%95%D7%A3_%D7%94%D7%AA%D7%95%D7%A4%D7%99%D7%9D_062-removebg_qrkktl.png" alt=""></img>
                 {/* <img id="idabout_pic" className="about_pic" alt=""></img> */}
                 </div>
 

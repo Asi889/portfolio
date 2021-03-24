@@ -534,9 +534,10 @@ li {
 
 .about_pic{
   visibility: visible;
-  width: 500px;
+  width: 605px;
   position: sticky;
   top: 1px;
+  margin-left: -159px
 }
 @media screen and (max-width: 777px){
   .about_pic{
