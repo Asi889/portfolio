@@ -70,6 +70,24 @@ const ProjectPage = () => {
 
 
             </div>
+
+            
+            <div className="seconde_project">
+                <h4 className="bold_textF">"Pizza Store" </h4>
+                <img className="phone_img" src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1617699560/pizza_wcwicx.png"></img>
+                <p className="first_projecttext">Pizza Store. My first php project. i know im a real rooki here but its amazing how similar most of the sintax and functionality is comaperd to JavaScript. So who wants pizza :)    </p>
+                {/* <img className="small_logos" src="https://cubettech.com/wp-content/uploads/2018/09/1280px-React-icon.svg_.png" alt=""></img> */}
+                <img className="php_logo" src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1617699708/PHP-Elephant-Logo-PNG-Image-Background_bumvhu.png" alt=""></img>
+                <a className="btn_link" href="https://github.com/Asi889/pizza_store.git">
+                    <br></br>
+                    <button className="project_btn3">
+                        code
+                            <svg className="github_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54"><path fill="none" d="M-.2.1h53.8v53.4H-.2z"></path><path d="M15.9 7.7c3.3-1.9 6.9-2.9 10.8-2.9 3.9 0 7.5 1 10.8 2.9s5.9 4.5 7.8 7.8c1.9 3.3 2.9 6.9 2.9 10.8 0 4.7-1.4 8.9-4.1 12.6-2.7 3.7-6.2 6.3-10.6 7.7-.5.1-.9 0-1.1-.2-.2-.2-.4-.5-.4-.8v-5.9c0-1.8-.5-3.1-1.5-4 1.1-.1 2-.3 2.9-.5.8-.2 1.7-.6 2.6-1.1.9-.5 1.7-1.1 2.3-1.9.6-.7 1.1-1.7 1.5-2.9s.6-2.6.6-4.2c0-2.2-.7-4.1-2.2-5.7.7-1.7.6-3.6-.2-5.7-.5-.2-1.3-.1-2.3.3-1 .4-1.8.8-2.6 1.2l-1.1.7c-1.7-.5-3.5-.7-5.4-.7-1.8 0-3.6.2-5.4.7-.3-.2-.7-.5-1.2-.8-.5-.3-1.3-.7-2.3-1.1-1.1-.4-1.9-.5-2.4-.4-.8 2.1-.9 4-.2 5.7-1.4 1.7-2.1 3.6-2.1 5.8 0 1.6.2 3 .6 4.2.4 1.2.9 2.2 1.5 2.9.6.7 1.3 1.4 2.2 1.9.9.5 1.8.9 2.6 1.1.8.2 1.8.4 2.9.5-.7.7-1.2 1.6-1.4 2.9-.4.2-.8.3-1.3.4-.4.1-1 .1-1.6.1s-1.2-.2-1.8-.6c-.6-.4-1.1-1-1.5-1.7-.4-.6-.8-1.1-1.4-1.5-.5-.4-1-.6-1.4-.7l-.6-.1c-.4 0-.7 0-.8.1-.1.1-.2.2-.1.3s.1.3.3.4c.1.1.2.2.4.3l.2.1c.4.2.8.5 1.2 1.1.4.5.7 1 .9 1.4l.3.6c.2.7.7 1.3 1.2 1.7.6.4 1.2.7 1.9.8.7.1 1.3.2 1.9.2.6 0 1.1 0 1.5-.1l.6-.1v4c0 .3-.1.6-.4.8-.2.2-.6.3-1.1.2-4.3-1.4-7.8-4-10.6-7.7S5.1 30.7 5.1 26c0-3.9 1-7.5 2.9-10.8 2-3 4.6-5.6 7.9-7.5zm-2.6 27.9c.1-.1 0-.2-.2-.3-.2-.1-.3 0-.4.1-.1.1 0 .2.2.3.2.1.4.1.4-.1zm.9 1c.1-.1.1-.2-.1-.4s-.3-.2-.4-.1c-.1.1-.1.2.1.4.1.2.3.2.4.1zm.8 1.2c.2-.1.2-.3 0-.5-.1-.2-.3-.3-.5-.2-.2.1-.2.3 0 .5s.4.3.5.2zm1.2 1.2c.1-.1.1-.3-.1-.5s-.4-.3-.6-.1c-.2.1-.1.3.1.5.3.2.5.2.6.1zm1.6.7c.1-.2-.1-.4-.4-.4-.3-.1-.5 0-.5.2-.1.2 0 .3.4.4.2.1.4 0 .5-.2zm1.8.1c0-.2-.2-.3-.5-.3s-.4.1-.4.3c0 .2.2.3.5.3.2 0 .4-.1.4-.3zm1.6-.3c0-.2-.2-.3-.5-.3-.3.1-.4.2-.4.4s.2.3.5.2c.3.1.4-.1.4-.3z"></path></svg>
+                    </button>
+                </a>
+
+
+            </div>
             <div className="tester1"></div>
 
         </div>)
