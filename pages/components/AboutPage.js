@@ -85,8 +85,8 @@ const AboutPage = () => {
                 <br></br>
                 <p>Currently Looking for my First Job and my Next Challange.</p>
                 <em className="bold_text_withColor">
-                    <a href="https://github.com/Asi889/gigMeApp/raw/47db7a8d85caa01ab30758b7fc5d7276f39d75bb/AsafMaromCV-_wqt2sk.pdf"
-                     download="AsafMaromCV.pdf">📝 My resume</a>
+                    <a href="https://github.com/Asi889/gigMeApp/raw/main/asafmaromCV1-update.pdf"
+                     download="asafmaromCV1-update.pdf" target="_blank">📝 My resume</a>
 
                 </em>
                 
