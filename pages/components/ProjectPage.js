@@ -28,9 +28,9 @@ const ProjectPage = () => {
                 </a>
 
 
-                <a className="btn_link" href="https://gig-mee.herokuapp.com/">
+                {/* <a className="btn_link" href="https://gig-mee.herokuapp.com/">
                     <button className="project_btn1">Live Website</button>
-                </a>
+                </a> */}
 
 
             </div>
