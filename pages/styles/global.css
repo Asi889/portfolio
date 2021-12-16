@@ -298,8 +298,17 @@ object-fit: cover;
     padding-top: 40px;
   }
   .open-nav11 a{
-    font-size: 5rem;
+    font-size: 4rem;
   }
+  .contact-links svg{
+    width: 30px;
+    height: 30px;
+  }
+  #open-small-links{
+    font-size:18px!important;
+    
+  }
+
 }
 .open-nav-link-wrapper{
   display: flex;
