@@ -5,6 +5,7 @@ import WelcomePage from './components/WelcomePage';
 import AboutPage from './components/AboutPage';
 import ProjectPage from './components/ProjectPage';
 import StarWarsPage from './components/StarWarsPage';
+import OpenNav from './components/OpenNav';
 
 class TextScramble {
   constructor(el) {
@@ -70,9 +71,11 @@ class TextScramble {
 export default function Home() {
 
   const phrases = [
-    'I am a Junior Full-Stack web-developer, ',
-    'Sent from the future to find my first Job :)',
-    'And to prevent Doomsday! 🤖:) Boom!!!, drop the mic!!! 🎤'
+    'I am a Full-Stack web-developer, ',
+    'Sent from the future to right great code :)',
+    'Java-Script, PHP, React, Vue, Node.js, MongoDB, Redux, Mobix and CSS',
+    'Are just the start, of what i know currently know',
+    'check out my projects and git-hub account',
 
   ]
 
@@ -80,6 +83,7 @@ export default function Home() {
   let counter = 0
   const next = () => {
     const el = document.querySelector('.text')
+    if(!el) return ;
     const fx = new TextScramble(el)
     fx.setText(phrases[counter]).then(() => {
       setTimeout(next, 3000)
@@ -99,11 +103,12 @@ export default function Home() {
   return (
     <div id="main_container" >
       <Head></Head>
-      <NavBar />
+      {/* <NavBar /> */}
+      
       <WelcomePage />
-      <AboutPage />
+      {/* <AboutPage />
       <ProjectPage />
-      <StarWarsPage />
+      <StarWarsPage /> */}
     </div>
   )
 }

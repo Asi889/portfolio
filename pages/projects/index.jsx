@@ -1,16 +1,17 @@
-import AboutPage from "../components/AboutPage";
+import ProjectPage from "../components/ProjectPage";
 import Head from "../components/Head";
+import { useState } from "react";
 
-const About = () => {
+const Projects = () => {
+    
 ////////////////////////////////////////////////////////////////
 return(
     <div id="main_container">
         <Head></Head>
-        
-        <AboutPage />
+        <ProjectPage />
         {/* <h1>Test About Page</h1> */}
     </div>
 )
 };
 
-export default About;
+export default Projects;
