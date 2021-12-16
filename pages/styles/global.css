@@ -297,6 +297,9 @@ object-fit: cover;
     display: block;
     padding-top: 40px;
   }
+  .open-nav11 a{
+    font-size: 5rem;
+  }
 }
 .open-nav-link-wrapper{
   display: flex;
@@ -449,10 +452,11 @@ object-fit: cover;
     /* margin-left: 166px; */
   }
   .mario img{
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     position: absolute;
-    left:0px
+    left:5px;
+    top: 7px;
     /* margin-top: 0;
     margin-left: 30px; */
     /* margin-top: -60px; */
@@ -465,7 +469,7 @@ object-fit: cover;
   .nav-links-wrapper{
     display: grid;
     gap: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
 }
@@ -996,7 +1000,7 @@ li {
     position: relative;
     color: #1d1d1d;
     font-size: 4.2rem;
-    font-family: 'Galindo', cursive;
+    /* font-family: 'Galindo', cursive; */
     display:block;
     color:#1D1D1D;
     text-decoration: underline ;

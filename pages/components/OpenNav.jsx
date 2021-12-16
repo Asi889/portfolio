@@ -18,12 +18,10 @@ const OpenNav = (props) => {
     }
     return (
         <div className={`open-nav ${isOpen ? 'open-nav11' : ""}`}>
-            {/* <h1>Open Nav</h1> */}
             <div className="nav-links-wrapper">
                 {navs.map((nav) => {
                     return (
                         <Link href={nav.to} key={nav.to} >
-
                             <a className="nav-link" onClick={handleHamburger}>{nav.name}</a>
                         </Link>
                     )
@@ -40,7 +38,6 @@ const OpenNav = (props) => {
                     <a id="open-small-links" className="contact-link" href="https://www.instagram.com/p/ByvaP3zgatA/?utm_medium=copy_link">@freestyle_tlv</a>
                 </div>
                 <div className="contact-links">
-                    {/* <LinkedinIcon /> */}
                     <WhtieLinkedin />
                     <a id="open-small-links" className="contact-link" href="https://www.linkedin.com/in/asaf-marom-0581a8136/">@Asaf_Marom</a>
                 </div>
