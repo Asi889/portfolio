@@ -1,16 +1,12 @@
 import { useState } from "react";
 import Hamburger from "./Hamburger";
 import OpenNav from "./OpenNav";
-// import resume from '../../src/assets/AsafmaromCV.pdf';
-import resume from '../../public/assets/AsafmaromCV-p.pdf'
-// import resume from '../assets/AsafmaromCV.pdf';
 import Link from 'next/link'
 
 const NavBar = function () {
   const [isOpen, setIsOpen] = useState(false);
   const [div, setDiv] = useState(false);
-  console.log(resume);
-  console.log('sabaka');
+  
   const handleHamburger = () => {
 
     setIsOpen(!isOpen);
@@ -33,7 +29,7 @@ const NavBar = function () {
             <span className="middle-span"></span>
             <span className="last-span"></span>
           </div>
-          <Link href="/assets/AsafmaromCV-p.pdf" >
+          <Link href="/assets/asafmaromcv.pdf" >
           
           <a className="navbar-brand"  download target="_blank" rel="noopener">Asaf Marom</a>
         </Link>
