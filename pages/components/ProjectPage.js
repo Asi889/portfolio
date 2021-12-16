@@ -1,4 +1,4 @@
-import { projectData } from './projectData'
+import { projectData } from '../../src/services/projectData'
 const ProjectPage = () => {
     
 
