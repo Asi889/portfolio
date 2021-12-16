@@ -3,7 +3,7 @@ const WelcomePage = () => {
         <div id="sec1" className="section1" >
             <div className="testy">
 
-            <h1 className="topCHi">Hi 🙋‍♂️,</h1>
+            <h1 className="topCHi">Hi,</h1>
             <h1 className="topC">My Name is Asaf</h1>
             <h2 className="aka">(aka Asi)</h2>
 
