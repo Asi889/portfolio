@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Scroll from "./Scroll";
-
+import Link from 'next/link'
 
 
 const AboutPage = () => {
@@ -13,7 +13,7 @@ const AboutPage = () => {
 
 
             <div className="about_text">
-                
+
                 <h1 className="about">About </h1>
                 <p className="first_text">
                     I am a Junior Full-Stack web developer, Self-motivated, organized, and team-work oriented seeking a suitable position
@@ -65,8 +65,11 @@ const AboutPage = () => {
                 <br></br>
                 <p>Currently Looking for my First Job and my Next Challange.</p>
                 <em className="bold_text_withColor">
-                    <a href="https://github.com/Asi889/gigMeApp/raw/main/asafmaromCV1-update.pdf"
-                        download="asafmaromCV1-update.pdf" target="_blank">📝 My resume</a>
+                    <Link href="/assets/asafmaromcv.pdf" >
+
+                        {/* <a className="navbar-brand" download target="_blank" rel="noopener">Asaf Marom</a> */}
+                    <a download="asafmaromCV.pdf" target="_blank">📝 My resume</a>
+                    </Link>
 
                 </em>
 
