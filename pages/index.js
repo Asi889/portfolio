@@ -6,6 +6,8 @@ import AboutPage from './components/AboutPage';
 import ProjectPage from './components/ProjectPage';
 import StarWarsPage from './components/StarWarsPage';
 import OpenNav from './components/OpenNav';
+import { NextSeo } from 'next-seo';
+import { seoMerge } from '../src/services/next-seo-config';
 
 class TextScramble {
   constructor(el) {
@@ -89,7 +91,11 @@ export default function Home() {
       setTimeout(next, 3000)
     })
     counter = (counter + 1) % phrases.length
-  }
+  };
+  const seo = seoMerge({
+    title: "Asaf Marom",
+    description: `Asaf Marom's Profile website - home page `,
+  });
 
 
 
@@ -103,6 +109,7 @@ export default function Home() {
   return (
     <div id="main_container" >
       <Head></Head>
+      <NextSeo {...seo} />
       {/* <NavBar /> */}
       
       <WelcomePage />

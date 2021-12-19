@@ -1,3 +1,5 @@
+import { NextSeo } from "next-seo";
+import { seoMerge } from "../../src/services/next-seo-config";
 import Head from "../components/Head";
 
 const Gallery = () => {
@@ -14,10 +16,15 @@ const Gallery = () => {
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487506/frisbee/20292029_757977457728145_4200437556896071680_n_oisnnl.mp4' },
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487510/frisbee/20669507_1780883105536208_518853167710994432_n_tlssqo.mp4' },
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487508/frisbee/20818476_298185227322235_2926608251845869568_n_pg5h4a.mp4' },
-    ]
+    ];
+    const seo = seoMerge({
+        title: "Asaf Marom",
+        description: `Asaf Marom's Profile website - Gallery page `,
+    });
     return (
         <div id="main_container">
             <Head></Head>
+            <NextSeo {...seo} />
             <div className="gallery-container">
 
                 <div className="gallery-wrapper">
