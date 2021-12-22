@@ -11,7 +11,7 @@ const projects=[
     },
     {
         title: `Tsofen landing page`,
-        body: `Tsophen is a landing page i built in PHP in Wordpress for`,
+        body: `Tsophen is a landing page i built in PHP in Wordpress`,
         icons: ['PHP', 'Wordpress', 'CSS'],
         sourceCode:'https://github.com/Asi889/tsofen-landingPage',
         liveWebsite:'http://lp.tsofen.org/?fbclid=IwAR3grDQ7mACsKXS_ZOnfNYa8Mut1nMAqklQo_eA8E2wCRkR_UKYNLtX5jV8',
