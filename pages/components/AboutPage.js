@@ -63,7 +63,7 @@ const AboutPage = () => {
                     <a className="camra_imoji" href="https://www.instagram.com/p/BXuZ0rpFRLf/?igshid=zjmux3ilm5s7">📷</a>
                 </p>
                 <br></br>
-                <p>Currently Looking for my First Job and my Next Challange.</p>
+                <p>Currently Looking for my Next Job and my Next Challange.</p>
                 <em className="bold_text_withColor">
                     <Link href="/assets/asafmaromcv.pdf" >
 
