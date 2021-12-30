@@ -68,7 +68,7 @@ const AboutPage = () => {
                     <Link href="/assets/asafmaromcv.pdf" >
 
                         {/* <a className="navbar-brand" download target="_blank" rel="noopener">Asaf Marom</a> */}
-                    <a download="asafmaromcv.pdf" target="_blank">📝 My resume</a>
+                    <a download="asafmaromCV.pdf" target="_blank">📝 My resume</a>
                     </Link>
 
                 </em>
