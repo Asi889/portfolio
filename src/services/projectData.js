@@ -1,21 +1,29 @@
 export const projectData = ()=>{
 const projects=[
     {
-        title: `Final Bootcamp Project`,
-        body: `GIG-Me, is a full C2C App, Task manager App, fiverr meets task manager but not for proffesionals. The app is built in React JS framework, and NODE JS server. With MongoDB as the database.`,
-        icons: ['Node', 'MongoDB', 'React','MobX'],
-        sourceCode:'https://github.com/Asi889/gigMeApp',
-        liveWebsite:'',
-        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134532/gigme_n1q1ml.png'
-
-    },
-    {
         title: `Tsofen landing page`,
         body: `Tsophen is a landing page i built in PHP in Wordpress`,
         icons: ['PHP', 'Wordpress', 'CSS'],
         sourceCode:'https://github.com/Asi889/tsofen-landingPage',
         liveWebsite:'http://lp.tsofen.org/?fbclid=IwAR3grDQ7mACsKXS_ZOnfNYa8Mut1nMAqklQo_eA8E2wCRkR_UKYNLtX5jV8',
         imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134536/tsofen_agfaab.png'
+
+    },
+    // {
+    //     title: `Vue.js Weather App`,
+    //     body: `first mini project i did in vue.js`,
+    //     icons: ['Vue', 'Wordpress', 'CSS'],
+    //     sourceCode:'https://github.com/Asi889/tsofen-landingPage',
+    //     liveWebsite:'http://lp.tsofen.org/?fbclid=IwAR3grDQ7mACsKXS_ZOnfNYa8Mut1nMAqklQo_eA8E2wCRkR_UKYNLtX5jV8',
+    //     imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134536/tsofen_agfaab.png'
+    // },
+    {
+        title: `Final Bootcamp Project`,
+        body: `GIG-Me, is a full C2C App, Task manager App, fiverr meets task manager but not for proffesionals. The app is built in React JS framework, and NODE JS server. With MongoDB as the database.`,
+        icons: ['Node', 'MongoDB', 'React','MobX'],
+        sourceCode:'https://github.com/Asi889/gigMeApp',
+        liveWebsite:'',
+        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134532/gigme_n1q1ml.png'
 
     },
     {
@@ -43,14 +51,14 @@ const projects=[
         liveWebsite:'https://betabundles.com/',
         imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134535/carnival_nwjjst.png'
     },
-    // {
-    //     title: `Weather App`,
-    //     body: ``,
-    //     icons: ['', 'JavaScript','React', 'State-Managment','CSS'],
-    //     sourceCode:'',
-    //     liveWebsite:'',
-    //     imgeSource: ''
-    // },
+    {
+        title: `Wordle in Hebrew`,
+        body: `Wordle is a fun game that i built after seeing the big hype about it. its my first project in Vue.js. it was and still is fun working on`,
+        icons: ['', 'JavaScript','Vue.js','tailwind','CSS'],
+        sourceCode:'https://github.com/Asi889/wordel-game',
+        liveWebsite:'https://wordel-game.vercel.app/',
+        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1644911985/wordleil_hoy5nf.png'
+    },
 ];
 
     return projects.reverse()
