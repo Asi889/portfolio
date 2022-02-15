@@ -57,7 +57,7 @@ const projects=[
         icons: ['', 'JavaScript','Vue.js','tailwind','CSS'],
         sourceCode:'https://github.com/Asi889/wordel-game',
         liveWebsite:'https://wordel-game.vercel.app/',
-        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1644911985/wordleil_hoy5nf.png'
+        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1644915796/ggg_apxx6c.png'
     },
 ];
 
