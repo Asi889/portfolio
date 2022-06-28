@@ -35,6 +35,22 @@ const projects=[
         imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134533/mayalp_vjmw4c.png'
     },
     {
+        title: `Carnival Cruse`,
+        body: `Carnival Cruse is a end to end App built in react framework, i did not build this project, but was needed to fix and add new fetures to a existing project`,
+        icons: ['JavaScript','React', 'State-Managment','CSS'],
+        sourceCode:'https://github.com/Asi889/frontcarnivalwhitelabel',
+        liveWebsite:'https://betabundles.com/',
+        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134535/carnival_nwjjst.png'
+    },
+    {
+        title: `UNICORN DESIGN`,
+        body: `UNICORN DESIGN is as website a website i made for a client`,
+        icons: ['PHP','WordPress','Javascript','Tailwind','CSS', 'html'],
+        sourceCode:'',
+        liveWebsite:'https://wordel-game.vercel.app/',
+        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425485/Screenshot_2022-06-28_171100_ev5rfw.png'
+    },
+    {
         title: `Project Maya - Adam Milo `,
         body: `Proect Maya is A full End To End system built in React next.js Framework for front end php in the backend, in this project i worked in colaboration with two other programers.`,
         icons: ['PHP', 'JavaScript','React Next.js', 'State-Managment', 'CSS','Tailwind'],
@@ -44,20 +60,20 @@ const projects=[
 
     },
     {
-        title: `Carnival Cruse`,
-        body: `Carnival Cruse is a end to end App built in react framework, i did not build this project, but was needed to fix and add new fetures to a existing project`,
-        icons: ['JavaScript','React', 'State-Managment','CSS'],
-        sourceCode:'https://github.com/Asi889/frontcarnivalwhitelabel',
-        liveWebsite:'https://betabundles.com/',
-        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134535/carnival_nwjjst.png'
-    },
-    {
         title: `Wordle in Hebrew`,
         body: `Wordle is a fun game that i built after seeing the big hype about it. its my first project in Vue.js. it was and still is fun working on`,
         icons: ['', 'JavaScript','Vue.js','tailwind','CSS'],
         sourceCode:'https://github.com/Asi889/wordel-game',
         liveWebsite:'https://wordel-game.vercel.app/',
         imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1644915796/ggg_apxx6c.png'
+    },
+    {
+        title: `What's 4 Dinner`,
+        body: `Don't know what to order for dinner/lunch? Whats4Dinner is a random restaurant picker from Wolt and 10Bis restaurant list that will choose a random restaurant for you.`,
+        icons: ['Typscript', 'JavaScript','React','Next.js','Tailwind','CSS'],
+        sourceCode:'https://github.com/Asi889/restaurant-picker',
+        liveWebsite:'https://www.whats4dinner.co.il/',
+        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425068/Screenshot_2022-06-28_170410_qpikgu.png'
     },
 ];
 

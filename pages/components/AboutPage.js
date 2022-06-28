@@ -16,7 +16,7 @@ const AboutPage = () => {
 
                 <h1 className="about">About </h1>
                 <p className="first_text">
-                    I am a Junior Full-Stack web developer, Self-motivated, organized, and team-work oriented seeking a suitable position
+                    I am a Full-Stack web developer, Self-motivated, organized, and team-work oriented seeking a suitable position
                     to use my analytical and programming skills for developing quality software products.
                     I have a strong work ethic, good communication skills, am open minded,
                     fun, always ready to learn somthing new, to succeed and to contribute in any way I can.
