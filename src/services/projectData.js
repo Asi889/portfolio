@@ -35,6 +35,14 @@ const projects=[
         imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134533/mayalp_vjmw4c.png'
     },
     {
+        title: `Chat Room`,
+        body: `this is was a task i got for an interview to make a chat room using only vanilla js. so i did! I used socket.io and express for the server and tailwind on the css. `,
+        icons: ['Node.js', 'Javascript','Socket.io','Tailwind', 'CSS'],
+        sourceCode:'https://github.com/Asi889/room-chat-app',
+        liveWebsite:'https://mychatroomasi.herokuapp.com/',
+        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1659299284/chatapp_xuhory.png'
+    },
+    {
         title: `Carnival Cruse`,
         body: `Carnival Cruse is a end to end App built in react framework, i did not build this project, but was needed to fix and add new fetures to a existing project`,
         icons: ['JavaScript','React', 'State-Managment','CSS'],
