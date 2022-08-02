@@ -36,10 +36,10 @@ const projects=[
     },
     {
         title: `Chat Room`,
-        body: `this is was a task i got for an interview to make a chat room using only vanilla js. so i did! I used socket.io and express for the server and tailwind on the css. `,
+        body: `this is was a task i got for an interview to make a chat room using only vanilla js. so i did! I used socket.io and express for the server and tailwind on the css and deployed with AWS. `,
         icons: ['Node.js', 'Javascript','Socket.io','Tailwind', 'CSS'],
         sourceCode:'https://github.com/Asi889/room-chat-app',
-        liveWebsite:'https://mychatroomasi.herokuapp.com/',
+        liveWebsite:'http://nodechat-env-1.eba-kxrknrwn.us-east-2.elasticbeanstalk.com/chat.html?username=Ness&room=General',
         imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1659299284/chatapp_xuhory.png'
     },
     {
