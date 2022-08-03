@@ -55,7 +55,7 @@ const projects=[
         body: `UNICORN DESIGN is as website a website i made for a client`,
         icons: ['PHP','WordPress','Javascript','Tailwind','CSS', 'html'],
         sourceCode:'',
-        liveWebsite:'https://https://uniqorn-design.adamshriki.co.il/',
+        liveWebsite:'https://uniqorn-design.adamshriki.co.il/',
         imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425485/Screenshot_2022-06-28_171100_ev5rfw.png'
     },
     {
