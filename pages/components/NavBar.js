@@ -22,7 +22,7 @@ const NavBar = function () {
       <nav className="navbar navbar-inverse navbar-fixed-top">
         <div className="container-fluid">
           <a href="/" className="mario" >
-            <img src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639907803/Asaf_up6v4r.png"></img>
+            <img src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1659711084/AsafmaromCV_12_kt1crp.pdf"></img>
             {/* <img src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1616273564/Retro-Mario-2-icon_jvhhym.png"></img> */}
           </a>
           <div id="nav-icon1" className={`ex ${isOpen ? 'open' : ""}`} onClick={handleHamburger}>
