@@ -9,14 +9,14 @@ const projects=[
         imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134536/tsofen_agfaab.png'
 
     },
-    // {
-    //     title: `Vue.js Weather App`,
-    //     body: `first mini project i did in vue.js`,
-    //     icons: ['Vue', 'Wordpress', 'CSS'],
-    //     sourceCode:'https://github.com/Asi889/tsofen-landingPage',
-    //     liveWebsite:'http://lp.tsofen.org/?fbclid=IwAR3grDQ7mACsKXS_ZOnfNYa8Mut1nMAqklQo_eA8E2wCRkR_UKYNLtX5jV8',
-    //     imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134536/tsofen_agfaab.png'
-    // },
+    {
+        title: `Angular Weather App`,
+        body: `first mini project i did while learning Angular`,
+        icons: ['Angular', 'JavaScript', 'Tailwind' ,  'CSS'],
+        sourceCode:'https://github.com/Asi889/angular-weather-app',
+        liveWebsite:'https://asi-angular-weather-app.vercel.app/',
+        imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1659710127/weatherappimage_i58lvq.png'
+    },
     {
         title: `Final Bootcamp Project`,
         body: `GIG-Me, is a full C2C App, Task manager App, fiverr meets task manager but not for proffesionals. The app is built in React JS framework, and NODE JS server. With MongoDB as the database.`,
