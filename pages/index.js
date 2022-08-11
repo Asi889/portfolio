@@ -74,7 +74,7 @@ export default function Home() {
 
   const phrases = [
     'I am a Full-Stack web-developer, ',
-    'Sent from the future to right great code :)',
+    'Sent from the future to write great code :)',
     'Java-Script, PHP, React, Vue, Node.js, MongoDB, Redux, Mobix and CSS',
     'Are just the start, of what i know currently know',
     'check out my projects and git-hub account',

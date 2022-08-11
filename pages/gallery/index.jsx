@@ -29,7 +29,7 @@ const Gallery = () => {
 
                 <div className="gallery-wrapper">
                     <div className="gallery-text">
-                        <h1>In my free time i ❤ to play fisbee and make and make video's</h1>
+                        <h1>In my free time i ❤ to play frisbee and make video's</h1>
                         <p className="gallery-sub-text">you can find more of my photos and video's on <a className="gallery-links" href="https://www.instagram.com/p/ByvaP3zgatA/?utm_medium=copy_link">Instagram</a> or <a className="gallery-links" href="https://vm.tiktok.com/ZSefoN5AC/">TikTok</a></p>
                     </div>
                     <div className="img-wrapper">
