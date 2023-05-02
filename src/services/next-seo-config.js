@@ -4,7 +4,6 @@ const seoObj = {
     openGraph: {
       type: 'website',
       locale: 'he_IL',
-      // url: 'https://www.nextmovies.test',
       site_name: `Asaf Marom's website`,
     },
   };

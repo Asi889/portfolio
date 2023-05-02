@@ -1,34 +1,26 @@
-import Head from "../components/Head";
-import ContactList from "../components/ContactList";
-import { NextSeo } from "next-seo";
-import { seoMerge } from "../../src/services/next-seo-config";
-
-
-const Contact = () => {
+import React from 'react';
+import PageContact from '../../components/PageContact';
+import ContactPage from '../../components/ContactPage';
+import { NextSeo } from 'next-seo';
+import { seoMerge } from '../../src/services/next-seo-config';
+function index(props) {
+    
     const seo = seoMerge({
         title: "Asaf Marom",
         description: `Asaf Marom's Profile website - Contact page `,
     });
+
     return (
-        <div id="main_container" className="contact-page">
-            <Head></Head>
-            < NextSeo {...seo} />
-            <br />
-            <br />
-            <h1 className="project-title">Contact Me</h1>
+        <div className="w-full h-full ">
+        {/* <div className="w-full h-auto lg:h-full "> */}
+        {/* // <> */}
+            <NextSeo {...seo} />
 
-            <div className="contact-list">
-                <p className="project-text">You can find me on socail media:</p>
-
-
-                <ContactList />
-
-                <p className="project-text">
-                    Or by mail: Asafmarom89@gmail.com</p>
+            {/* <PageContact /> */}
+            <ContactPage />
+            {/* </> */}
             </div>
+    );
+}
 
-        </div>
-    )
-};
-
-export default Contact;
+export default index;

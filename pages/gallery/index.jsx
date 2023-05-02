@@ -1,8 +1,23 @@
+/* eslint-disable @next/next/no-img-element */
 import { NextSeo } from "next-seo";
 import { seoMerge } from "../../src/services/next-seo-config";
-import Head from "../components/Head";
+import FramerText from "../../components/FramerText";
+import ParticlesBackground from "../../components/ParticlesBackground";
+import React, { useContext } from 'react';
+import { Context } from '../_app';
+import Head from "next/head";
 
 const Gallery = () => {
+    const seo = seoMerge({
+        title: "Asaf Marom",
+        description: `Asaf Marom's Profile website - Gallery page `,
+    });
+    const theme = useContext(Context)
+            
+
+    const animateText = [
+        { type: "paragraph", text: "Gallery" },
+      ];
     const galleryData = [
         { type: 'img', source: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639487497/frisbee/18514037_1329021827212321_2594249899931336704_n_yttxfj.jpg' },
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487504/frisbee/20509421_105975686755800_3802126451688341504_n_d2x6iw.mp4' },
@@ -17,31 +32,30 @@ const Gallery = () => {
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487510/frisbee/20669507_1780883105536208_518853167710994432_n_tlssqo.mp4' },
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487508/frisbee/20818476_298185227322235_2926608251845869568_n_pg5h4a.mp4' },
     ];
-    const seo = seoMerge({
-        title: "Asaf Marom",
-        description: `Asaf Marom's Profile website - Gallery page `,
-    });
+    
     return (
-        <div id="main_container">
+        <div id="main_container " className=" h-auto relative  railway lg:pl-[100px] pl-0 lg:mt-0  overflow-hidden pb-10">
             <Head></Head>
             <NextSeo {...seo} />
-            <div className="gallery-container">
-
-                <div className="gallery-wrapper">
-                    <div className="gallery-text">
-                        <h1>In my free time i ❤ to play frisbee and make video's</h1>
-                        <p className="gallery-sub-text">you can find more of my photos and video's on <a className="gallery-links" href="https://www.instagram.com/p/ByvaP3zgatA/?utm_medium=copy_link">Instagram</a> or <a className="gallery-links" href="https://vm.tiktok.com/ZSefoN5AC/">TikTok</a></p>
-                    </div>
-                    <div className="img-wrapper">
-
-                        {galleryData.map((item) => {
-                            if (item.type === "img") return <img className="video-img" src={item.source} />
-                            if (item.type === "video") return (<video className="video-img" controls>
-                                <source src={item.source} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>)
-                        })}
-                    </div>
+                {/* <div className="absolute w-full h-scrren"> */}
+                    <ParticlesBackground />
+                {/* </div> */}
+            <div className="grid relative  max-w-[1550px] px-6 mx-auto z-50 ">
+               
+                <div className="grid mt-10 z-50 max-w-[1200px] justify-self-center text-[#f3efef]">
+                    
+                    <h1 className="lg:text-[40px] text-[30px]  text-[#47ebde] motion-text font-bold"><FramerText animateText={animateText} /></h1>
+                    <h1 className={`lg:text-[22px] text-[20px] font-medium  mt-4 ${theme.darkTheme ? "text-[#e0d9d9]" : "text-black"}`}>{` A fun fact about me is that I'm a self-taught freestyle frisbee pro. On the weekend, you'll find me playing on the beach.`}</h1>
+                    <p className={`gallery-sub-text lg:text-[22px] text-[20px] pt-4 ${theme.darkTheme ? "text-[#e0d9d9]" : "text-black"}`}>{`See more of my photos and videos on`} <a className="text-[#d35e5e] lg:text-[24px] text-[22px] font-bold" href="https://www.instagram.com/p/ByvaP3zgatA/?utm_medium=copy_link">Instagram</a> or <a className="text-[#d35e5e] lg:text-[24px] text-[22px] font-bold" href="https://vm.tiktok.com/ZSefoN5AC/">TikTok</a></p>
+                </div>
+                <div className="img-wrapper flex flex-wrap gap-x-6 gap-y-6 mt-10 z-50 justify-center">
+                    {galleryData.map((item,index) => {
+                        if (item.type === "img") return <img key={index} className="video-img md:w-[400px] w-[200px] md:h-[400px] h-[200px]" src={item.source} alt="" />
+                        if (item.type === "video") return (<video key={index} className="video-img md:w-[400px] w-[200px] md:h-[400px] h-[200px] object-cover" controls>
+                            <source className="w-[450px] h-[450px] object-cover" src={item.source} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>)
+                    })}
                 </div>
             </div>
 
