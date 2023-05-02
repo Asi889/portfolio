@@ -27,7 +27,9 @@ function MyParallax(props) {
                             <div className=' grid h-full p-10 relative flex-1'>
                                 <div className="projec-img-wrapper   items-center max-h-[300px] md:max-h-[400px]  self-center z-50 relative flex   mx-auto">
                                     <img className="items-center  relative  w-full max-h-[300px] md:max-h-[400px] z-50" alt="" src={computerImg}></img>
-                                    <img className="project-img absolute  top-[12px] w-full  object-cover  md:max-h-[300px] xs:max-h-[200px] max-h-[140px] rounded-lg" alt="" src={project.imgeSource}></img>
+                                    <img className="project-img absolute z-40 top-[12px] w-full  object-cover  md:max-h-[300px] xs:max-h-[200px] max-h-[140px] rounded-lg" alt="" src={project.imgeSource}></img>
+                                    <div className={`md:h-[120%] md:top-auto bottom-auto  md:w-[150%] md:-left-28 h-[130%] w-[140%] -left-[50px] z-10 bg-gray-400 opacity-20 backdrop-filter backdrop-blur-lg rounded-full ${theme.darkTheme ? "absolute" : "hidden"}`}></div>
+                                    {/* <div className={`md:h-[490px]  md:w-[150%] md:-left-28 h-[360px] w-[140%] -left-[50px] z-10 bg-gray-400 opacity-20 backdrop-filter backdrop-blur-lg rounded-full ${theme.darkTheme ? "absolute" : "hidden"}`}></div> */}
                                 </div>
                             </div>
 
@@ -60,7 +62,7 @@ function MyParallax(props) {
 
                                             {project.liveWebsite ?
                                                 <Link href={project.liveWebsite} className="flex justify-center max-w-full" >
-                                                    <button className="flex items-center justify-center md:h-[60px] h-10 bg-[#cb5858] shadow-2xl mt-3 text-xl self-end w-full md:max-w-full  text-white py-10 px-10">
+                                                    <button className="flex items-center justify-center md:h-[60px] h-10 bg-[#cb5858] shadow-2xl mt-3 text-xl self-end w-full md:max-w-full  text-white ">
                                                         Live Website
 
                                                     </button>
