@@ -225,5 +225,9 @@ body {
   }
 }
 
+.button-group:hover .inner-path {
+  fill: white;
+}
+
 
 
