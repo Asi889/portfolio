@@ -4,7 +4,7 @@ export default function projectData(){
             title: `Tsofen landing page`,
             body: `Tsophen is a landing page  I built Tsofen, an impactful landing page using PHP within the WordPress framework. This project served a noble initiative, connecting Israel's Arab community with meaningful tech job opportunities. The combination of PHP, WordPress, and CSS enabled a dynamic user experience while ensuring an intuitive and visually appealing interface.`,
             icons: ['PHP', 'Wordpress', 'CSS'],
-            sourceCode:'https://github.com/Asi889/tsofen-landingPage',
+            sourceCode:'',
             liveWebsite:'http://lp.tsofen.org/?fbclid=IwAR3grDQ7mACsKXS_ZOnfNYa8Mut1nMAqklQo_eA8E2wCRkR_UKYNLtX5jV8',
             imgeSource: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134536/tsofen_agfaab.png'
     
