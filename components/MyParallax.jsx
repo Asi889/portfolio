@@ -13,7 +13,7 @@ function MyParallax(props) {
     const router = useRouter();
     
     return (
-        <div className='relative railway grid gap-y-10 lg:gap-y-40 px-10 lg:px-0 pb-12 lg:pb-0'>
+        <div className='relative railway grid gap-y-10 lg:gap-y-40 px-10 lg:px-0 pb-12 '>
 
             {projects ? projects.map((project, index) => {
                 return (

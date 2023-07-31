@@ -12,13 +12,8 @@ function index(props) {
 
     return (
         <div className="w-full h-full ">
-        {/* <div className="w-full h-auto lg:h-full "> */}
-        {/* // <> */}
             <NextSeo {...seo} />
-
-            {/* <PageContact /> */}
             <ContactPage />
-            {/* </> */}
             </div>
     );
 }
