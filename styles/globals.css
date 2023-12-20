@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 #app canvas {
   display: block;
   position: fixed;
@@ -23,12 +27,20 @@ body {
   top: 0;
 }
 
+<<<<<<< HEAD
 #tsparticles {
   width: 100%;
   height: 100%;
 }
 
 #nav-icon1 {
+=======
+#tsparticles{
+  width: 100%;
+  height: 100%;}
+
+#nav-icon1{
+>>>>>>> origin/main
   width: 60px;
   height: 45px;
   position: relative;
@@ -37,6 +49,7 @@ body {
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
+<<<<<<< HEAD
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
@@ -45,6 +58,17 @@ body {
 }
 
 #nav-icon1 span {
+=======
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+
+#nav-icon1 span{
+>>>>>>> origin/main
   display: block;
   position: absolute;
   height: 9px;
@@ -57,10 +81,17 @@ body {
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
+<<<<<<< HEAD
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
+=======
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+>>>>>>> origin/main
 }
 
 #nav-icon1 span:nth-child(1) {
@@ -71,7 +102,11 @@ body {
   top: 18px;
 }
 #nav-icon1 span:nth-child(2):hover {
+<<<<<<< HEAD
   background: #47ebde;
+=======
+  background: #d35e5e;
+>>>>>>> origin/main
 }
 
 #nav-icon1 span:nth-child(3) {
@@ -91,7 +126,11 @@ body {
   left: -60px;
 }
 #nav-icon1.open .last-span:hover {
+<<<<<<< HEAD
   background: #47ebde;
+=======
+  background: #d35e5e;
+>>>>>>> origin/main
 }
 
 #nav-icon1.open span:nth-child(3) {
@@ -102,15 +141,28 @@ body {
   transform: rotate(-135deg);
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 777px) {
   #nav-icon1 {
+=======
+@media screen and (max-width: 777px){
+
+  #nav-icon1{
+>>>>>>> origin/main
     width: 40px;
     height: 35px;
   }
 
+<<<<<<< HEAD
   #nav-icon1 span {
     height: 5px;
     z-index: 999999999;
+=======
+  #nav-icon1 span{
+    height: 5px;
+    z-index: 999999999;
+    
+>>>>>>> origin/main
   }
   #nav-icon1 span:nth-child(2) {
     top: 14px;
@@ -118,8 +170,15 @@ body {
   #nav-icon1 span:nth-child(3) {
     top: 29px;
   }
+<<<<<<< HEAD
 }
 
+=======
+  
+}
+
+
+>>>>>>> origin/main
 /* #c {
   background: rgb(0, 0, 0);
   display: block;
@@ -129,21 +188,34 @@ body {
   transform: translate(-50%, -50%);
 } */
 
+<<<<<<< HEAD
 .motion-text span {
   display: inline-block;
   font-size: 4rem;
 }
 .motion-text .about-framer-span {
+=======
+.motion-text span{
+  display: inline-block;
+  font-size: 4rem;
+}
+.motion-text .about-framer-span{
+>>>>>>> origin/main
   /* display: inline-block; */
   display: grid;
   font-size: 4rem;
 }
 
+<<<<<<< HEAD
 .motion-text .word-wrapper .smaller-title span {
+=======
+.motion-text .word-wrapper .smaller-title span{
+>>>>>>> origin/main
   display: inline-block;
   font-size: 2rem;
 }
 /* .asi-text{ */
+<<<<<<< HEAD
 .motion-text .word-wrapper .asi-text span {
   /* display: inline-block;
   font-size: 2rem; */
@@ -155,14 +227,35 @@ body {
   color: white;
 }
 
+=======
+.motion-text .word-wrapper .asi-text span{
+  /* display: inline-block;
+  font-size: 2rem; */
+  color: #47ebde;
+  
+}
+.motion-text .word-wrapper .asi-text span:hover{
+  /* display: inline-block;
+  font-size: 2rem; */
+  color: white;
+
+}
+
+
+>>>>>>> origin/main
 .motin-text h1 {
   font-size: 100px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 .img-parallax img {
   height: 100%;
 }
 
+<<<<<<< HEAD
 .react-parallax-content {
   backdrop-filter: blur(15px) brightness(0.4);
   display: grid;
@@ -177,10 +270,28 @@ body {
 }
 
 .about-page {
+=======
+.react-parallax-content{
+  backdrop-filter: blur(15px)brightness(0.4);
+  display: grid;
+  align-content: center;
+}
+.galindo{
+  font-family: 'Galindo', cursive;
+
+}
+
+.railway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.about-page{
+>>>>>>> origin/main
   grid-template-columns: 65% 35%;
 }
 
 @media (max-width: 1024px) {
+<<<<<<< HEAD
   .about-page {
     grid-template-columns: 98% 2%;
   }
@@ -188,18 +299,35 @@ body {
     margin: 0 10px;
   }
   .motion-text span {
+=======
+  .about-page{
+    grid-template-columns: 98% 2%;
+  }
+  #nav-icon1{
+    margin: 0 10px;
+  }
+  .motion-text span{
+>>>>>>> origin/main
     display: inline-block;
     font-size: 2rem;
     /* color: white; */
   }
+<<<<<<< HEAD
   .motion-text .about-framer-span {
+=======
+  .motion-text .about-framer-span{
+>>>>>>> origin/main
     /* display: inline-block; */
     /* display: grid; */
     font-size: 2rem;
   }
 }
 
+<<<<<<< HEAD
 .bbc {
+=======
+.bbc{
+>>>>>>> origin/main
   display: none;
 }
 .about_text::-webkit-scrollbar {
@@ -208,9 +336,15 @@ body {
 }
 
 @media (max-width: 1412px) {
+<<<<<<< HEAD
   /* @media (max-width: 1015px) { */
 
   .gallery-navbar {
+=======
+/* @media (max-width: 1015px) { */
+
+  .gallery-navbar{
+>>>>>>> origin/main
     position: relative;
   }
 }
@@ -219,6 +353,7 @@ body {
   fill: white;
 }
 
+<<<<<<< HEAD
 @keyframes slideDown {
   /* from {
     transform: translateY(-100%);
@@ -243,3 +378,7 @@ body {
 .animate-slideDown {
   animation: slideDown 1s ease-in-out forwards;
 }
+=======
+
+
+>>>>>>> origin/main

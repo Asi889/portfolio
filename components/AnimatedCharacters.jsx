@@ -39,11 +39,11 @@ const AnimatedCharacters = (props) => {
   const words = [];
 
   // Push each word into words array
-  if(splitWords){
+  if (splitWords) {
 
     for (const [, item] of splitWords.entries()) {
-     words.push(item.split(""));
-   }
+      words.push(item.split(""));
+    }
   }
 
   // Add a space ("\u00A0") to the end of each word
@@ -58,20 +58,20 @@ const AnimatedCharacters = (props) => {
   function checkArrayEquality(index) {
     // let worda = ""
     // arr.forEach((string)=> worda += string)
-    if(index == 7 || index == 6 || index == 5 || index == 8 ){
+    if (index == 7 || index == 6 || index == 5 || index == 8) {
       return true
     }
-   
+
   }
-  function asiCheck(index){
-    if(index === 7){
+  function asiCheck(index) {
+    if (index === 7) {
       return true
     }
 
   }
 
   return (
-    <Tag className={`${Tag ===""} z-50 `}>
+    <Tag className={`${Tag === ""} z-50 `}>
       {words?.map((word, firstIndex) => {
         return (
           // Wrap each word in the Wrapper component
@@ -79,10 +79,10 @@ const AnimatedCharacters = (props) => {
             {words[firstIndex]?.flat().map((element, index) => {
               return (
                 <span
-                
+
                   className={`text-red-400 overflow-hidden inline-block`}
                   key={index}
-                  
+
                 >
                   <motion.span
                     style={{ display: "inline-block" }}

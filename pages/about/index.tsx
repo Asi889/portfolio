@@ -32,7 +32,7 @@ function About() {
           theme.darkTheme ? "text-[#b3acac]" : "text-black"
         } relative  `}
       >
-        <h1 className="lg:text-[40px] text-[30px] relative z-[99999] text-[#47ebde] font-bold motion-text leading-none">
+        <h1 className="lg:text-[40px] text-[30px] relative z-[99999] text-[#47ebde] font-bold motion-text">
           <FramerText animateText={animateText} />
         </h1>
         <p className="first_text pt-4 font opacity-100 z-50">

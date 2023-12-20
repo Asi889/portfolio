@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React, { useContext } from 'react';
 import { Parallax } from "react-parallax";
-import  projectData  from '../src/services/projectData';
+import projectData from '../src/services/projectData';
 import { useRouter } from 'next/router'
 import FramerText from './FramerText';
 import { Context } from '../pages/_app';
@@ -31,8 +31,8 @@ function ParallaxTest(props) {
                             </div>
 
                         </Parallax>
-                       
-                        
+
+
 
                         <div className="projec-img-wrapper ttt z-50 relative  lg:hidden flex  max-h-[500px] max-w-[200px] md:max-w-full  mx-auto items-center">
                             <img className="items-center  relative  w-full h-full z-50" alt="" src={computerImg}></img>
@@ -40,7 +40,7 @@ function ParallaxTest(props) {
                         </div>
 
                         <div className={` flex w-full justify-center z-50 mt-10  ${theme.darkTheme ? "text-[#e0d9d9]" : "text-black"}`}>
-                            <div className={`text-primary relative lg:absolute text-6xl md:top-10 top-44  w-full ${theme.darkTheme ? "hidden" : "block"} text-center z-[9999] md:text-[40px] text-[30px] font-bold motion-text`}>
+                            <div className={`text-[#47ebde] relative lg:absolute text-6xl md:top-10 top-44  w-full ${theme.darkTheme ? "hidden" : "block"} text-center z-[9999] md:text-[40px] text-[30px] font-bold motion-text`}>
                                 <FramerText animateText={animateText} />
                             </div>
 
