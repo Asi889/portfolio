@@ -1,20 +1,18 @@
-import React from 'react';
+import React from "react";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { useAnimation, motion } from "framer-motion";
 
-const UseAnimatedText = ({text})=> {
+const UseAnimatedText = ({ text }) => {
+  // const text = 'Contact me' // This would normally be passed into this component as a prop!
 
-
-    // const text = 'Contact me' // This would normally be passed into this component as a prop!
-  
   const ctrls = useAnimation();
-  
+
   const { ref, inView } = useInView({
     threshold: 0.5,
     triggerOnce: true,
   });
-  
+
   useEffect(() => {
     if (inView) {
       ctrls.start("visible");
@@ -23,12 +21,12 @@ const UseAnimatedText = ({text})=> {
       ctrls.start("hidden");
     }
   }, [ctrls, inView]);
-  
+
   const wordAnimation = {
     hidden: {},
     visible: {},
   };
-  
+
   const characterAnimation = {
     hidden: {
       opacity: 0,
@@ -43,15 +41,14 @@ const UseAnimatedText = ({text})=> {
       },
     },
   };
-  
+
   return (
     <motion.h2 className="flex flex-wrap" aria-label={text} role="heading">
       {text?.split(" ").map((word, index) => {
         return (
-
           <motion.span
             ref={ref}
-            className="pr-4"
+            className="pr-2"
             aria-hidden="true"
             key={index}
             initial="hidden"
@@ -68,7 +65,7 @@ const UseAnimatedText = ({text})=> {
                   aria-hidden="true"
                   key={index}
                   variants={characterAnimation}
-                  className="text-[18px] md:text-[25px]"
+                  className="text-[18px] lg:text-[25px]"
                 >
                   {character}
                 </motion.span>
@@ -79,6 +76,6 @@ const UseAnimatedText = ({text})=> {
       })}
     </motion.h2>
   );
-}
+};
 
 export default UseAnimatedText;

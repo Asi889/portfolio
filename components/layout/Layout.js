@@ -14,7 +14,7 @@ const Layout = function ({ children }) {
   }
 
   return (
-    <section className="flex flex-col lg:flex-row h-screen w-full">
+    <section className="flex flex-col lg:flex-row md:h-screen h-auto w-full">
       <Head></Head>
       <NavBar isOpen={isOpen} handleHamburger={handleHamburger} />
 
