@@ -7,23 +7,27 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': '576px',
-      'xs': '380px',
-      'md': '768px',
+      sm: "576px",
+      xs: "380px",
+      md: "768px",
       // => @media (min-width: 768px) { ... }
 
-      'lg': '1024px',
-      'ab': '1190px',
-      'cd': '1519px',
+      lg: "1024px",
+      ab: "1190px",
+      cd: "1519px",
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1280px',
+      xl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1536px',
+      "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#47ebde",
+      },
+    },
   },
   plugins: [],
-}
+};
