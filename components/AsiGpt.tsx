@@ -228,7 +228,7 @@ const Question = ({
   onTypingComplete?: () => void;
 }) => {
   return (
-    <li className="flex gap-x-5 min-h-[30px]">
+    <li className="flex gap-x-5 min-h-[30px] pl-2 md:pl-0">
       {avatar()}
       <div className="text-slate-100 min-h-[20px] flex flex-1 flex-col items-start gap-3 overflow-x-auto whitespace-pre-wrap break-words">
         {onTypingComplete ? (
