@@ -161,7 +161,7 @@ const ChatInput = memo(
     startOver?: () => void;
   }) => {
     return (
-      <div className="flex w-full py-3 md:pl-4 relative border  border-gray-900/50 text-white bg-gray-700 rounded-xl shadow-xs ">
+      <div className="flex w-full py-3 md:pl-4 relative border justify-between border-gray-900/50 text-white bg-gray-700 rounded-xl shadow-xs ">
         {/* <input
                 value={value}
                 disabled
