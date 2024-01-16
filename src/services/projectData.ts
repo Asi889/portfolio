@@ -6,14 +6,21 @@ export type Project = {
   liveWebsite?: string;
   imgSrc: string;
 };
-
 export default function projectData() {
-  const projects = [
+  const projects: Project[] = [
+    {
+      title: `Final Bootcamp Project`,
+      body: `GIG-Me, is a full C2C App, task manager app. Imagine Fiverr meets task manager, but designed for consumers and professionals.  Developed with React JS for the frontend and powered by a robust NODE JS server, GIG-Me leverages the efficiency of MongoDB as its database. This winning tech stack ensures seamless communication between users and delivers a dynamic platform for managing tasks, transforming the way consumers and professionals collaborate.`,
+      stacks: ["Node.js", "MongoDB", "React", "MobX"],
+      sourceCode: "https://github.com/Asi889/gigMeApp",
+      liveWebsite: "",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134532/gigme_n1q1ml.png",
+    },
     {
       title: `Tsofen landing page`,
       body: `Tsophen is a landing page  I built Tsofen, an impactful landing page using PHP within the WordPress framework. This project served a noble initiative, connecting Israel's Arab community with meaningful tech job opportunities. The combination of PHP, WordPress, and CSS enabled a dynamic user experience while ensuring an intuitive and visually appealing interface.`,
       stacks: ["PHP", "Wordpress", "CSS"],
-      sourceCode: "https://github.com/Asi889/tslandingPageofen-",
       liveWebsite: "",
       imgSrc:
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134536/tsofen_agfaab.png",
@@ -27,15 +34,7 @@ export default function projectData() {
       imgSrc:
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1659710127/weatherappimage_i58lvq.png",
     },
-    {
-      title: `Final Bootcamp Project`,
-      body: `GIG-Me, is a full C2C App, task manager app. Imagine Fiverr meets task manager, but designed for consumers and professionals.  Developed with React JS for the frontend and powered by a robust NODE JS server, GIG-Me leverages the efficiency of MongoDB as its database. This winning tech stack ensures seamless communication between users and delivers a dynamic platform for managing tasks, transforming the way consumers and professionals collaborate.`,
-      stacks: ["Node.js", "MongoDB", "React", "MobX"],
-      sourceCode: "https://github.com/Asi889/gigMeApp",
-      liveWebsite: "",
-      imgSrc:
-        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134532/gigme_n1q1ml.png",
-    },
+
     {
       title: `Maya landing page`,
       body: `Maya Landing Page: Crafted as a captivating landing page for the esteemed company Adam Milo, the Maya project showcases my expertise in PHP within the WordPress framework. With a focus on delivering a compelling user experience, the landing page serves as a gateway to Adam Milo's world, providing essential information and enticing visitors to explore their offerings further.`,
@@ -54,40 +53,6 @@ export default function projectData() {
         "http://nodechat-env-1.eba-kxrknrwn.us-east-2.elasticbeanstalk.com/chat.html?username=Ness&room=General",
       imgSrc:
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1659299284/chatapp_xuhory.png",
-    },
-    {
-      title: `Carnival Cruse`,
-      body: `An end-to-end app developed using the React framework, Carnival Cruise exemplifies my expertise in JavaScript, React, Redux, and CSS. While I collaborated with a team on this project, my substantial contributions primarily involved debugging, refining, and implementing exciting new features to enhance the app's functionality and user experience.`,
-      stacks: ["JavaScript", "React", "Redux", "CSS"],
-      sourceCode: "https://github.com/Asi889/frontcarnivalwhitelabel",
-      liveWebsite: "https://betabundles.com/",
-      imgSrc:
-        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134535/carnival_nwjjst.png",
-    },
-    {
-      title: `UNICORN DESIGN`,
-      body: `UNICORN DESIGN stands out as an exceptional website I crafted for a valued web designer client. Leveraging the powerful combination of WordPress, PHP, JS, and Tailwind, I designed a remarkable online platform that perfectly encapsulates the client's creative vision. for this project i created a theme from scratch using carbon fileds which is a WordPress custom fileds library optimized for developers. A key aspect of my development approach is ensuring that all my projects are fully responsive, effortlessly adapting to diverse screens and devices. `,
-      stacks: ["PHP", "WordPress", "Javascript", "Tailwind", "CSS", "HTML"],
-      sourceCode: "",
-      liveWebsite: "https://uniqorn-design.adamshriki.co.il/",
-      imgSrc:
-        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425485/Screenshot_2022-06-28_171100_ev5rfw.png",
-    },
-    {
-      title: `Project Maya - Adam Milo `,
-      body: `A large-scale, year-long project. Project Maya is a full end-to-end systeProject Maya stands as a comprehensive end-to-end system, skillfully crafted with React Next.js for the front end and backed by the robust PHP framework. This ambitious undertaking involved working and collaboration in a team of two other talented programmers and various stakeholders. Leveraging an impressive tech stack comprising PHP, JavaScript, React Next.js, state management, CSS, and Tailwind, Project Maya delivers an unparalleled user experience, marking a significant milestone in web development and fostering efficient teamwork.`,
-      stacks: [
-        "PHP",
-        "JavaScript",
-        "React Next.js",
-        "State-Managment",
-        "CSS",
-        "Tailwind",
-      ],
-      sourceCode: "https://github.com/Asi889/maya-front",
-      liveWebsite: "https://am-maya.com/",
-      imgSrc:
-        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134534/mayaproject_mubvzz.png",
     },
     {
       title: `Wordle in Hebrew`,
@@ -113,6 +78,40 @@ export default function projectData() {
       liveWebsite: "https://www.whats4dinner.co.il/",
       imgSrc:
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425068/Screenshot_2022-06-28_170410_qpikgu.png",
+    },
+    {
+      title: `Carnival Cruse`,
+      body: `An end-to-end app developed using the React framework, Carnival Cruise exemplifies my expertise in JavaScript, React, Redux, and CSS. While I collaborated with a team on this project, my substantial contributions primarily involved debugging, refining, and implementing exciting new features to enhance the app's functionality and user experience.`,
+      stacks: ["JavaScript", "React", "Redux", "CSS"],
+      sourceCode: "https://github.com/Asi889/frontcarnivalwhitelabel",
+      liveWebsite: "https://betabundles.com/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134535/carnival_nwjjst.png",
+    },
+    {
+      title: `Unicorn Design`,
+      body: `Unicorn Design stands out as an exceptional website I crafted for a valued web designer client. Leveraging the powerful combination of WordPress, PHP, JS, and Tailwind, I designed a remarkable online platform that perfectly encapsulates the client's creative vision. for this project i created a theme from scratch using carbon fileds which is a WordPress custom fileds library optimized for developers. A key aspect of my development approach is ensuring that all my projects are fully responsive, effortlessly adapting to diverse screens and devices. `,
+      stacks: ["PHP", "WordPress", "Javascript", "Tailwind", "CSS", "HTML"],
+      sourceCode: "",
+      liveWebsite: "https://uniqorn-design.adamshriki.co.il/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425485/Screenshot_2022-06-28_171100_ev5rfw.png",
+    },
+    {
+      title: `Adam Milo `,
+      body: `A large-scale, year-long project. Project Maya is a full end-to-end systeProject Maya stands as a comprehensive end-to-end system, skillfully crafted with React Next.js for the front end and backed by the robust PHP framework. This ambitious undertaking involved working and collaboration in a team of two other talented programmers and various stakeholders. Leveraging an impressive tech stack comprising PHP, JavaScript, React Next.js, state management, CSS, and Tailwind, Project Maya delivers an unparalleled user experience, marking a significant milestone in web development and fostering efficient teamwork.`,
+      stacks: [
+        "PHP",
+        "JavaScript",
+        "React Next.js",
+        "State-Managment",
+        "CSS",
+        "Tailwind",
+      ],
+      sourceCode: "https://github.com/Asi889/maya-front",
+      liveWebsite: "https://am-maya.com/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134534/mayaproject_mubvzz.png",
     },
   ];
 

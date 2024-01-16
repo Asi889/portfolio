@@ -1,5 +1,5 @@
-export default function gallaryData() {
-    const gallary = [
+export default function gallaryData(){
+    const gallary=[
         { type: 'img', source: 'https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639487497/frisbee/18514037_1329021827212321_2594249899931336704_n_yttxfj.jpg' },
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487504/frisbee/20509421_105975686755800_3802126451688341504_n_d2x6iw.mp4' },
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487508/frisbee/20730053_624199714455331_8353606808266342400_n_aieqyr.mp4' },
@@ -13,8 +13,8 @@ export default function gallaryData() {
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487510/frisbee/20669507_1780883105536208_518853167710994432_n_tlssqo.mp4' },
         { type: 'video', source: 'https://res.cloudinary.com/dvdzjj8jo/video/upload/v1639487508/frisbee/20818476_298185227322235_2926608251845869568_n_pg5h4a.mp4' },
     ];
-
-    return gallary
-};
-
-
+    
+        return gallary
+    };
+    
+     

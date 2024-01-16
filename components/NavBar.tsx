@@ -28,7 +28,8 @@ const NavBar = function ({ isOpen, handleHamburger }) {
         <div className="lg:mx-auto mx-4 z-50 order-1 grid justify-items-center lg:gap-y-6 gap-y-2">
           <Link
             href="/"
-            className="w-16 h-16 lg:w-20 lg:h-20 "
+            // className="h-14 w-14"
+            className="w-14 h-14 md:w-20 md:h-20 "
             onClick={() => {
               if (isOpen) {
                 handleHamburger();
@@ -36,7 +37,8 @@ const NavBar = function ({ isOpen, handleHamburger }) {
             }}
           >
             <img
-              className="w-16 h-16 lg:w-20 lg:h-20"
+              className="w-full h-full"
+              // className="w-16 h-16 lg:w-20 lg:h-20"
               src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639907803/Asaf_up6v4r.png"
               alt=""
             ></img>
@@ -47,7 +49,7 @@ const NavBar = function ({ isOpen, handleHamburger }) {
         <Hamburger isOpen={isOpen} handleHamburger={handleHamburger} />
 
         <a
-          className="navbar-brand railway text-2xl text-white text-center z-50 lg:order-3 order-2"
+          className="navbar-brand railway text-lg sm:text-2xl text-white text-center z-50 lg:order-3 order-2"
           href="/assets/asafmaromcv.pdf"
           download
           target="_blank"

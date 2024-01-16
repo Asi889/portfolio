@@ -19,12 +19,12 @@ const FramerText = (props) => {
       {
         props?.hiText ?
           <motion.div
-            className="motin-text text-blue-200 galindo z-[999999999999999]"
+            className="motin-text text-blue-200 galindo"
             initial="hidden"
             animate={replay ? "visible" : "hidden"}
             variants={container}
           >
-            <div className="z-[9999999999999999999999999]">
+            <div className="">
               {props?.hiText ? props?.hiText?.map((item, index) => {
                 return <AnimatedCharacters {...item} key={index} />;
               }) : ""}
@@ -33,16 +33,16 @@ const FramerText = (props) => {
           : ""
       }
       <motion.div
-        className="motin-text welcome-page-title h-full "
+        className="motin-text welcome-page-title "
         initial="hidden"
         animate="visible"
         variants={container}
       >
-        <div className="">
-          {props?.animateText ? props?.animateText?.map((item, index) => {
-            return <AnimatedCharacters {...item} key={index} />;
-          }) : ""}
-        </div>
+        {/* <div className=""> */}
+        {props?.animateText ? props?.animateText?.map((item, index) => {
+          return <AnimatedCharacters {...item} key={index} />;
+        }) : ""}
+        {/* </div> */}
 
       </motion.div>
     </>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import MotionText from "./MotionText";
+import { useRouter } from "next/router";
 
 // Word wrapper
 const Wrapper = (props) => {
@@ -18,6 +19,8 @@ const tagMap = {
 // Handles the deconstruction of each word and character to setup for the
 // individual character animations
 const AnimatedCharacters = (props) => {
+  const router = useRouter();
+
   // Framer Motion variant object, for controlling animation
   const item = {
     hidden: {
@@ -71,7 +74,7 @@ const AnimatedCharacters = (props) => {
   }
 
   return (
-    <Tag className={`${Tag === ""} z-50 `}>
+    <Tag className={`${Tag === ""} flex flex-wrap items-start  z-50 ${router.pathname.includes("projects") ? "justify-center" : ""} `}>
       {words?.map((word, firstIndex) => {
         return (
           // Wrap each word in the Wrapper component
@@ -80,7 +83,7 @@ const AnimatedCharacters = (props) => {
               return (
                 <span
 
-                  className={`text-red-400 overflow-hidden h-auto`}
+                  className={`text-red-400 inline-block`}
                   key={index}
 
                 >

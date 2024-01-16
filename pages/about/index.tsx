@@ -3,7 +3,6 @@ import Link from "next/link";
 import React, { useContext } from "react";
 
 import ParticlesBackground from "../../components/ParticlesBackground";
-import MotionText from "../../components/MotionText";
 import FramerText from "../../components/FramerText";
 import { Context } from "../_app";
 import { NextSeo } from "next-seo";
@@ -33,8 +32,7 @@ function About() {
           theme.darkTheme ? "text-[#b3acac]" : "text-black"
         } relative  `}
       >
-        {/* <div className="z-50 opacity-100 absolute  w-full h-fit p-4 pt-10"> */}
-        <h1 className="lg:text-[40px] text-[30px] relative z-[99999] text-[#47ebde] font-bold motion-text">
+        <h1 className="lg:text-[40px] text-[30px] relative z-[99999] text-[#47ebde] font-bold motion-text leading-none">
           <FramerText animateText={animateText} />
         </h1>
         <p className="first_text pt-4 font opacity-100 z-50">
@@ -64,7 +62,6 @@ function About() {
         </p>
 
         <br></br>
-        {/* <br></br> */}
         <h3 className="font-bold border-b-2 border-[#47ebde] w-fit">
           {" "}
           My Current technical skill are
@@ -112,11 +109,8 @@ function About() {
             rel="noopener"
           >
             📝 Download my resume here
-            {/* <a className="navbar-brand" download target="_blank" rel="noopener">Asaf Marom</a> */}
-            {/* <a download="asafmaromCV.pdf" target="_blank">📝 My resume</a> */}
           </Link>
         </em>
-        {/* </div> */}
       </div>
       <div
         className={`about_img_pic z-50 w-full  items-center   lg:grid hidden `}

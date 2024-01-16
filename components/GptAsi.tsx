@@ -114,7 +114,7 @@ const Question = ({
   );
 };
 
-export const AsiGpttt = () => {
+export const GptAsi = () => {
   const [index, setIndex] = useState(false);
   const [indexChecker, setIndexChecker] = useState(false);
   const [indexCheckerTwo, setIndexCheckerTwo] = useState(false);

@@ -13,6 +13,7 @@ function LinkedinIcon() {
       <g >
         <path
           className="linkedin-path"
+          fill="none"
           // fill={`${theme.darkTheme ? "#069" : "#c0d1e7"} `}
 
           d="M0 18.338C0 8.216 8.474 0 18.92 0h218.16C247.53 0 256 8.216 256 18.338v219.327C256 247.79 247.53 256 237.08 256H18.92C8.475 256 0 247.791 0 237.668V18.335z"

@@ -30,12 +30,12 @@ const ProjectImg = ({
 }) => (
   <div className="projec-img-wrapper   items-center max-h-[300px] md:max-h-[400px]  self-center z-50 relative flex   mx-auto">
     <img
-      className="items-center  relative  w-full max-h-[300px] md:max-h-[400px] z-50"
+      className="items-center  relative  w-full max-h-[160px] md:max-h-[400px] z-50"
       alt=""
       src={computerImg}
     ></img>
     <img
-      className="project-img absolute z-40 top-[12px] w-full  object-cover  md:max-h-[300px] xs:max-h-[200px] max-h-[140px] rounded-lg"
+      className="project-img absolute z-40 top-[12px] w-full  object-cover  md:max-h-[300px] xs:max-h-[110px] max-h-[100px] rounded-lg"
       alt=""
       src={imgSrc}
     ></img>
@@ -57,7 +57,7 @@ export const SingleProject = ({ project }: { project: Project }) => {
       </div>
 
       <div
-        className={`w-full justify-center z-50 mt-10 flex-1 px-5 ${
+        className={`w-full justify-center z-50 mt-10 flex-1 ${
           theme.darkTheme ? "text-[#e0d9d9]" : "text-black"
         }`}
       >
