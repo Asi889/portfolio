@@ -22,7 +22,7 @@ const OpenNav = (props) => {
   return (
     <div
       className={` railway relative ${theme.darkTheme ? "bg-[#363030]" : "bg-[#757373]"
-        } grid text-white z-40 px-4 h-full   transition duration-[2s] ease-in-out ${isOpen
+        } grid text-white z-40 px-4 h-full transition duration-[2s] ease-in-out ${isOpen
           ? " w-full text-center  justify-center   justify-items-center"
           : "w-0"
         }`}

@@ -20,10 +20,7 @@ function About() {
   });
 
   return (
-    <div
-      id="sec2"
-      className="about-page relative h-full grid lg:pl-[100px] pl-0 w-full   pt-10"
-    >
+    <div id="sec2" className="about-page relative h-full grid pt-4">
       <NextSeo {...seo} />
       <ParticlesBackground />
 

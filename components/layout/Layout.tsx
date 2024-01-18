@@ -16,12 +16,16 @@ const Layout = function ({ children }) {
       <NavBar isOpen={isOpen} handleHamburger={handleHamburger} />
 
       {isOpen && (
-        <div className="w-full h-full">
+        <div className="w-full h-full pt-[100px] lg:pt-0 barnav ">
           {" "}
           <OpenNav isOpen={isOpen} handleHamburger={handleHamburger} />{" "}
         </div>
       )}
-      {!isOpen && <main className="w-full h-full">{children}</main>}
+      {!isOpen && (
+        <main className="w-full h-full pt-[100px] lg:pt-0 barnav">
+          {children}
+        </main>
+      )}
       <a
         target="_blank"
         rel="noopener noreferrer"

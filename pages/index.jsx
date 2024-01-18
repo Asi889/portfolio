@@ -21,7 +21,7 @@ export default function Home() {
   ];
 
   const animateText = [
-    { type: "paragraph", text: "My name is Asaf Marom ( A K A - Asi )" },
+    { type: "paragraph", text: "My name is Asaf Marom ( Asi )" },
   ];
   const seo = seoMerge({
     title: "Home Page",
@@ -38,13 +38,17 @@ export default function Home() {
       <div className="relative h-full ">
         <ParticlesBackground />
         <main className="relative px-4 h-full flex flex-col">
+          <header className="relative z-[99999] py-[15px] text-[#47ebde] font-bold motion-text leading-none">
 
-          <header className="font-bold md:mb-10  mb-4 leading-tight text-xl md:text-4xl p-4 ">
-            {/* <h1 className="lg:text-[20px] text-[30px] text-primary font-bold mgm"> */}
             <FramerText animateText={animateText} hiText={hiText} />
-
-            {/* </h1> */}
           </header>
+
+          {/* <header className="font-bold md:mb-10  mb-4 leading-tight text-xl md:text-4xl p-4 "> */}
+          {/* <h1 className="lg:text-[20px] text-[30px] text-primary font-bold mgm"> */}
+          {/* <FramerText animateText={animateText} hiText={hiText} /> */}
+
+          {/* </h1> */}
+          {/* </header> */}
 
           <article className={`flex-grow h-full ${theme.darkTheme ? "text-white" : "text-black"}`}>
             <AsiGpt />

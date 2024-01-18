@@ -131,7 +131,7 @@ body {
 
 .motion-text span {
   display: inline-block;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .motion-text .about-framer-span {
   /* display: inline-block; */
@@ -139,10 +139,10 @@ body {
   font-size: 4rem;
 }
 
-.motion-text .word-wrapper .smaller-title span {
+/* .motion-text .word-wrapper .smaller-title span {
   display: inline-block;
   font-size: 2rem;
-}
+} */
 /* .asi-text{ */
 .motion-text .word-wrapper .asi-text span {
   /* display: inline-block;
@@ -218,5 +218,14 @@ body {
 
 .button-group:hover .inner-path {
   fill: white;
+}
+.barnav {
+padding-left: 100px;
+}
+
+@media (max-width: 1024px) {
+  .barnav {
+    padding-left: 0px;
+  }
 }
 

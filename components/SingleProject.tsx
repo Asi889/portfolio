@@ -52,7 +52,7 @@ export const SingleProject = ({ project }: { project: Project }) => {
 
   return (
     <li className={`h-full w-full  z-50 lg:flex grid even:flex-row-reverse`}>
-      <div className=" grid h-full relative flex-1">
+      <div className=" grid h-full relative flex-1 px-3">
         <ProjectImg imgSrc={project.imgSrc} darkTheme={theme.darkTheme} />
       </div>
 

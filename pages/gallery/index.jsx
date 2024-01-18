@@ -21,7 +21,7 @@ const Gallery = () => {
   return (
     <div
       id="main_container "
-      className=" h-auto relative  railway lg:pl-[100px] pl-0 lg:mt-0  overflow-hidden pb-10"
+      className=" h-auto relative  railway lg:mt-0  overflow-hidden pb-10"
     >
       <Head></Head>
       <NextSeo {...seo} />
@@ -32,14 +32,12 @@ const Gallery = () => {
             <FramerText animateText={animateText} />
           </h1>
           <h1
-            className={`lg:text-[22px] text-[20px] font-medium  mt-4 ${
-              theme.darkTheme ? "text-[#e0d9d9]" : "text-black"
-            }`}
+            className={`lg:text-[22px] text-[20px] font-medium  mt-4 ${theme.darkTheme ? "text-[#e0d9d9]" : "text-black"
+              }`}
           >{` A fun fact about me is that I'm a self-taught freestyle frisbee pro. On the weekend, you'll find me playing on the beach.`}</h1>
           <p
-            className={`gallery-sub-text lg:text-[22px] text-[20px] pt-4 ${
-              theme.darkTheme ? "text-[#e0d9d9]" : "text-black"
-            }`}
+            className={`gallery-sub-text lg:text-[22px] text-[20px] pt-4 ${theme.darkTheme ? "text-[#e0d9d9]" : "text-black"
+              }`}
           >
             {`See more of my photos and videos on`}{" "}
             <a
