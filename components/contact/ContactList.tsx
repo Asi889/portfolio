@@ -13,13 +13,20 @@ function ContactList() {
     <>
       <div className="w-full lg:h-20 h-8 flex  gap-x-2">
         <GithubIcon />
-        <a className="contact-link lg:text-base text-xs" href="https://github.com/Asi889">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          className="contact-link lg:text-base text-xs"
+          href="https://github.com/Asi889"
+        >
           @Asi889
         </a>
       </div>
       <div className="w-full lg:h-20 h-8 flex gap-x-2">
         <InstagramIcon />
         <a
+          rel="noreferrer"
+          target="_blank"
           className="contact-link lg:text-base text-xs"
           href="https://www.instagram.com/p/ByvaP3zgatA/?utm_medium=copy_link"
         >
@@ -28,18 +35,20 @@ function ContactList() {
       </div>
       <div className="w-full lg:h-20 h-8 flex gap-x-2">
         {/* <div className="h-12 w-12"> */}
-          <LinkedinIcon />
+        <LinkedinIcon />
         {/* </div> */}
         <a
+          rel="noreferrer"
+          target="_blank"
           className="contact-link lg:text-base text-xs"
           href="https://www.linkedin.com/in/asaf-marom-0581a8136/"
         >
           @Asaf_Marom
         </a>
       </div>
-        <div className="hidden lg:block">
-          <p className="project-text">Or by mail: Asafmarom89@gmail.com</p>
-        </div>
+      <div className="hidden lg:block">
+        <p className="project-text">Or by mail: Asafmarom89@gmail.com</p>
+      </div>
     </>
   );
 }
