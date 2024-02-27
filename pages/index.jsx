@@ -43,12 +43,6 @@ export default function Home() {
             <FramerText animateText={animateText} hiText={hiText} />
           </header>
 
-          {/* <header className="font-bold md:mb-10  mb-4 leading-tight text-xl md:text-4xl p-4 "> */}
-          {/* <h1 className="lg:text-[20px] text-[30px] text-primary font-bold mgm"> */}
-          {/* <FramerText animateText={animateText} hiText={hiText} /> */}
-
-          {/* </h1> */}
-          {/* </header> */}
 
           <article className={`flex-grow h-full ${theme.darkTheme ? "text-white" : "text-black"}`}>
             <AsiGpt />

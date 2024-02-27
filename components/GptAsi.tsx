@@ -136,7 +136,7 @@ export const GptAsi = () => {
   }, []);
 
   useEffect(() => {
-    console.log("useEffect innnnn");
+    // console.log("useEffect innnnn");
     const timeoutId = setTimeout(() => {
       setIndexChecker(true);
     }, 2000);

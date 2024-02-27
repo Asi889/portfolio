@@ -49,9 +49,6 @@ const AnimatedCharacters = (props) => {
     }
   }
 
-  // console.log("router.pathname");
-  // console.log(words);
-  // Add a space ("\u00A0") to the end of each word
   words?.map((word) => {
     return word.push("\u00A0");
   });
@@ -78,7 +75,6 @@ const AnimatedCharacters = (props) => {
   return (
     <Tag className={`${Tag === ""} flex flex-wrap items-start  z-50 ${router.pathname.includes("projects") ? "justify-center" : ""} `}>
       {words?.map((word, firstIndex) => {
-        console.log(word);
         return (
           // Wrap each word in the Wrapper component
           <Wrapper key={firstIndex}>
