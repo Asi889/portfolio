@@ -100,7 +100,7 @@ function About() {
         <br></br>
         <em className="bold_text_withColor">
           <Link
-            href="/assets/asafmaromcv.pdf"
+            href="/assets/maromasafcv.pdf"
             download
             target="_blank"
             rel="noopener"
