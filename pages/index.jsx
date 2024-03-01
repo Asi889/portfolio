@@ -6,6 +6,7 @@ import Head from "../components/Head";
 import navs from "../src/services/utils";
 import ContentTyper from "../components/ContentTyper";
 import { AsiGpt } from "../components/AsiGpt";
+import NewGpt from "../components/NewGpt";
 import { GptAsi } from "../components/AsiGpt";
 import { Context } from "./_app";
 import { useContext } from "react";
@@ -45,7 +46,8 @@ export default function Home() {
 
 
           <article className={`flex-grow h-full ${theme.darkTheme ? "text-white" : "text-black"}`}>
-            <AsiGpt />
+            <NewGpt />
+            {/* <AsiGpt /> */}
             {/* <GptAsi /> */}
           </article>
           <footer className=" railway text-[#d49090] flex flex-wrap justify-center gap-x-4 md:gap-x-10 gap-y-2 mb-10 pb-4 mt-2">
