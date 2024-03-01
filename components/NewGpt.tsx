@@ -24,7 +24,9 @@ function NewGpt(props) {
     {
       q: ["Chat GPT, please find me a web developer?"],
       a: [
-        "Great news! I found you a great developer currently located in Israel.\n His name is Asaf Marom.\n Asaf is a skilled full stack web developer with expertise in: JavaScript, PHP, React, Next.js, Nest.js, Vue, Node.js, MongoDB, SQL, and more. You can check out his work and contact him for your project needs.\n How can I assist you further?",
+        "Great news!" +
+          "\n" +
+          "I found you a great developer currently located in Israel.\n His name is Asaf Marom.\n Asaf is a skilled full stack web developer with expertise in: JavaScript, PHP, React, Next.js, Nest.js, Vue, Node.js, MongoDB, SQL, and more. You can check out his work and contact him for your project needs.\n How can I assist you further?",
       ],
     },
     {
