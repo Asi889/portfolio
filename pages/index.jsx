@@ -38,7 +38,7 @@ export default function Home() {
 
       <div className="relative h-full ">
         <ParticlesBackground />
-        <main className="relative px-4 h-full flex flex-col">
+        <main className="relative px-4 h-full flex flex-col overflow-y-auto">
           <header className="relative z-[99999] py-[15px] text-[#47ebde] font-bold motion-text leading-none">
 
             <FramerText animateText={animateText} hiText={hiText} />
