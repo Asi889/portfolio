@@ -2,27 +2,13 @@
 
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
+import Typer from "./Typer";
 
 function NewGptBottom({ handleNextClick, qAndA, questionIndex }) {
-  const typewriters = useMemo(() => {
-    if (!qAndA) {
-      return [];
-    }
-
-    return qAndA.map((item, index) => (
-      <Typewriter
-        key={index}
-        words={item.q}
-        cursor
-        cursorStyle=""
-        typeSpeed={10}
-        delaySpeed={0}
-      />
-    ));
-  }, []);
   return (
     <div className="flex w-full item py-3 pl-4 relative border bnb justify-between border-gray-900/50 text-white bg-gray-700 rounded-xl shadow-xs ">
-      {typewriters[questionIndex]}
+      <Typer first={""} text={qAndA[questionIndex].q[0]} handleType={""} />
+      {/* {typewriters[questionIndex]} */}
       <button
         onClick={handleNextClick}
         className="rounded-md hover:bg-gray-900 p-2 text-primary transition-colors mr-1"
