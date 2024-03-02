@@ -6,7 +6,7 @@ import Typer from "./Typer";
 
 function NewGptBottom({ handleNextClick, qAndA, questionIndex }) {
   return (
-    <div className="flex w-full item py-3 pl-4 relative border bnb justify-between border-gray-900/50 text-white bg-gray-700 rounded-xl shadow-xs ">
+    <div className="flex w-full  items-center py-3 pl-4 relative border bnb justify-between border-gray-900/50 text-white bg-gray-700 rounded-xl shadow-xs ">
       <Typer first={""} text={qAndA[questionIndex].q[0]} handleType={""} />
       {/* {typewriters[questionIndex]} */}
       <button

@@ -9,7 +9,7 @@ const Typer = ({ text, first, handleType }) => {
         const typeWriter = async () => {
             // setIsTyping(true);
             for (let i = 0; i < text.length; i++) {
-                await new Promise((resolve) => setTimeout(resolve, 10));
+                await new Promise((resolve) => setTimeout(resolve, 15));
                 setTypedText(text.substring(0, i + 1));
                 if (handleType) handleType()
             }

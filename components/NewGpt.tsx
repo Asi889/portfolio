@@ -31,15 +31,15 @@ function NewGpt() {
       a: ["Great news!"],
     },
     {
-      q: ["what else you ask?"],
+      q: ["Do you have any more information about him?"],
       a: [
-        "he can billed you websites, colablrate with with different team players, and more.",
+        'He worked for a little more then a year at a company named "Dice Marketing" As a Full-Stack developer. He worked there on a variety of different projects. building from scratch dash-boards and internal CMS systems, websites and more for different clients. After Dice Marketing he continued is career and found himself a position as a Full-Stack developer at "Garage Web (io)" where as well he works on different projects for different clients.',
       ],
     },
     {
-      q: ["what is his super power?"],
+      q: ["What is his super power?"],
       a: [
-        "FREE STYLE FRISBEE PRO n billed you websites, colablrate with with different team players, and more n billed you websites, colablrate with with different team players, and more",
+        "His Super Power is Freestyle frisbee. When he has free time you can usually find him at the beach Jamming with his friends or just with the wind..",
       ],
     },
   ]);
@@ -70,7 +70,7 @@ function NewGpt() {
 
   return (
     <div className="max-w-lg mx-auto bg-slate-800 p-3 md:p-6 rounded-md w-full relative text-sm md:text-base">
-      <div className="max-h-[300px] py-2 md:max-h-[450px] overflow-y-auto ">
+      <div className="max-h-[300px] py-2 md:max-h-[350px] overflow-y-auto ">
         {qAndA.slice(0, displayedQIndex + 1).map((qa, index) => {
           return index === 0 ? (
             <div
