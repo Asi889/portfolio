@@ -98,6 +98,15 @@ export default function projectData() {
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425485/Screenshot_2022-06-28_171100_ev5rfw.png",
     },
     {
+      title: `Garage Web (io)`,
+      body: `Garage Web (io) stands out as an exceptional website I crafted for a the company i work at. Leveraging the powerful combination of Next.js, Typesscript, and Tailwind, A key aspect of my development approach is ensuring that all my projects are fully responsive, effortlessly adapting to diverse screens and devices. `,
+      stacks: ["Next.js", "typscript", "Tailwind", "CSS", "HTML"],
+      sourceCode: "https://github.com/nemo369/garageweb",
+      liveWebsite: "https://garageweb.io/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1710757413/garageio/WhatsApp_Image_2024-03-12_at_13.36.26_hbnbvn.jpg",
+    },
+    {
       title: `Adam Milo `,
       body: `A large-scale, year-long project. Project Maya is a full end-to-end systeProject Maya stands as a comprehensive end-to-end system, skillfully crafted with React Next.js for the front end and backed by the robust PHP framework. This ambitious undertaking involved working and collaboration in a team of two other talented programmers and various stakeholders. Leveraging an impressive tech stack comprising PHP, JavaScript, React Next.js, state management, CSS, and Tailwind, Project Maya delivers an unparalleled user experience, marking a significant milestone in web development and fostering efficient teamwork.`,
       stacks: [

@@ -23,11 +23,12 @@ function NewGpt() {
   const second = "His name is";
   const third = "Asaf Marom.";
   const forth =
-    "Asaf is a skilled full stack web developer with expertise in: JavaScript, PHP, React, Next.js, Nest.js, Vue, Node.js, MongoDB, SQL, and more. You can check out his work and contact him for your project needs. How can I assist you further?";
-
+    "Asaf is a skilled full stack web developer with expertise in: JavaScript, PHP, React, Next.js, Nest.js, Vue, Node.js, MongoDB, SQL, and more. You can check out his work, and contact him for your project needs. How can I assist you further?";
   const [qAndA, setQAndA] = useState([
     {
-      q: ["Chat GPT, please find me a web developer?"],
+      q: [
+        "Chat GPT, please find me an experienced, hard-working and client-focused web developer.",
+      ],
       a: ["Great news!"],
     },
     {
@@ -39,7 +40,7 @@ function NewGpt() {
     {
       q: ["What is his super power?"],
       a: [
-        "His Super Power is Freestyle frisbee. When he has free time you can usually find him at the beach Jamming with his friends or just with the wind..",
+        "His super power is freestyle frisbee. When he has free time,  you can usually find him at the beach jamming with his friends or just with the wind.",
       ],
     },
   ]);
