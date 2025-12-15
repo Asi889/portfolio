@@ -51,7 +51,7 @@ const NavBar = function ({ isOpen, handleHamburger }) {
 
         <a
           className="navbar-brand railway text-lg sm:text-2xl text-white text-center z-50 lg:order-3 order-2"
-          href="/assets/fsasafmarom.pdf"
+          href="/assets/fsdasafmaromcv.pdf"
           download
           target="_blank"
           rel="noopener"
