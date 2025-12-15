@@ -35,7 +35,7 @@ const ProjectImg = ({
       src={computerImg}
     ></img>
     <img
-      className="project-img absolute z-40 top-[12px] w-full  object-cover  md:max-h-[300px] xs:max-h-[110px] max-h-[100px] rounded-lg"
+      className="project-img absolute z-40 top-[12px] w-full  object-cover  md:max-h-[300px] xs:max-h-[110px] max-h-[100px] h-full aspect-square rounded-lg"
       alt=""
       src={imgSrc}
     ></img>

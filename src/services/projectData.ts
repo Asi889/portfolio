@@ -122,6 +122,28 @@ export default function projectData() {
       imgSrc:
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134534/mayaproject_mubvzz.png",
     },
+    {
+      title: `Pass Pass`,
+      body: `Project PassPass is a sports betting and tournament platform where users create groups, make predictions, track scores, and view dynamic leaderboards. It features real-time updates, automated scoring, and a smooth, user-friendly experience.
+
+A key highlight is the integrated AI-powered WhatsApp chatbot, which provides instant answers about matches, bets, rankings, and app support by accessing live platform data.
+
+This project demonstrates strong full-stack architecture, AI integration, and automation across web and messaging interfaces.`,
+      stacks: [
+        "Nest.js",
+        "PostgreSQL",
+        "TypeScript",
+        "Next.js",
+        "Tailwind",
+        "CSS",
+        "OpenAI",
+        "WhatsApp API",
+      ],
+      sourceCode: "https://github.com/nemo369/passpass",
+      liveWebsite: "https://www.passpass.win/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1765792513/newportfolio/c1f71fe6-63fe-4413-9ccd-1e583c40c584.png",
+    },
   ];
 
   return projects.reverse();
