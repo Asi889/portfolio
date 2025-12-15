@@ -124,7 +124,7 @@ export default function projectData() {
     },
     {
       title: `Pass Pass`,
-      body: `Project PassPass is a sports betting and tournament platform where users create groups, make predictions, track scores, and view dynamic leaderboards. It features real-time updates, automated scoring, and a smooth, user-friendly experience.
+      body: `PassPass is a sports betting and tournament platform where users create groups, make predictions, track scores, and view dynamic leaderboards. It features real-time updates, automated scoring, and a smooth, user-friendly experience.
 
 A key highlight is the integrated AI-powered WhatsApp chatbot, which provides instant answers about matches, bets, rankings, and app support by accessing live platform data.
 
