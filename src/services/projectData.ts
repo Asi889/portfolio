@@ -107,6 +107,15 @@ export default function projectData() {
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1710757413/garageio/WhatsApp_Image_2024-03-12_at_13.36.26_hbnbvn.jpg",
     },
     {
+      title: `Knotted.`,
+      body: `Knotted  is ecommerce store. its bult with PHP wordpress on the backend as a headles CMS. The frontend is built with Next.js and tailwind css. The project is a full stack project and i was the only developer on the project. `,
+      stacks: ["PHP", "Wordpress", "Next.js", "typscript", "Tailwind", "CSS", "HTML","woocommerce", "Zustand"],
+      sourceCode: "https://github.com/Asi889/gabi-store",
+      liveWebsite: "https://gabi-store-eigm.vercel.app",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1767476424/newportfolio/Screenshot_2026-01-03_233708_xq6gvv.png"
+    },
+    {
       title: `Adam Milo `,
       body: `A large-scale, year-long project. Project Maya is a full end-to-end systeProject Maya stands as a comprehensive end-to-end system, skillfully crafted with React Next.js for the front end and backed by the robust PHP framework. This ambitious undertaking involved working and collaboration in a team of two other talented programmers and various stakeholders. Leveraging an impressive tech stack comprising PHP, JavaScript, React Next.js, state management, CSS, and Tailwind, Project Maya delivers an unparalleled user experience, marking a significant milestone in web development and fostering efficient teamwork.`,
       stacks: [
