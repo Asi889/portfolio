@@ -98,6 +98,15 @@ export default function projectData() {
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425485/Screenshot_2022-06-28_171100_ev5rfw.png",
     },
     {
+      title: `Vered Tours`,
+      body: `Tailor made Full WordPress Theme - from UX, UI all the way to full-stack developmnet`,
+      stacks: ["PHP", "WordPress", "Javascript", "Tailwind", "CSS", "HTML"],
+      sourceCode: "",
+      liveWebsite: "https://veredtours.com/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1769068702/veredtours_yakest.png",
+    },
+    {
       title: `Garage Web (io)`,
       body: `Garage Web (io) stands out as an exceptional website I crafted for a the company i work at. Leveraging the powerful combination of Next.js, Typesscript, and Tailwind, A key aspect of my development approach is ensuring that all my projects are fully responsive, effortlessly adapting to diverse screens and devices. `,
       stacks: ["Next.js", "typscript", "Tailwind", "CSS", "HTML"],
