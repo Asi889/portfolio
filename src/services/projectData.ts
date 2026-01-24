@@ -55,6 +55,33 @@ export default function projectData() {
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1659299284/chatapp_xuhory.png",
     },
     {
+      title: `Carnival Cruse`,
+      body: `An end-to-end app developed using the React framework, Carnival Cruise exemplifies my expertise in JavaScript, React, Redux, and CSS. While I collaborated with a team on this project, my substantial contributions primarily involved debugging, refining, and implementing exciting new features to enhance the app's functionality and user experience.`,
+      stacks: ["JavaScript", "React", "Redux", "CSS"],
+      sourceCode: "https://github.com/Asi889/frontcarnivalwhitelabel",
+      liveWebsite: "https://betabundles.com/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134535/carnival_nwjjst.png",
+    },
+    {
+      title: `Unicorn Design`,
+      body: `Unicorn Design stands out as an exceptional website I crafted for a valued web designer client. Leveraging the powerful combination of WordPress, PHP, JS, and Tailwind, I designed a remarkable online platform that perfectly encapsulates the client's creative vision. for this project i created a theme from scratch using carbon fileds which is a WordPress custom fileds library optimized for developers. A key aspect of my development approach is ensuring that all my projects are fully responsive, effortlessly adapting to diverse screens and devices. `,
+      stacks: ["PHP", "WordPress", "Javascript", "Tailwind", "CSS", "HTML"],
+      sourceCode: "",
+      liveWebsite: "https://uniqorn-design.adamshriki.co.il/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425485/Screenshot_2022-06-28_171100_ev5rfw.png",
+    },
+    {
+      title: `Mass Points Explorer (Big Data Visualization)`,
+      body: `Mass Points Explorer is a performance-focused geographic dashboard capable of rendering and filtering 250,000 data points at 60 FPS. The core challenge was implementing a "live scrubbing" filter system that remains perfectly fluid without freezing the browser UI. To achieve this, I bypassed traditional CPU-heavy array operations and moved the filtering logic directly to the GPU via custom WebGL shaders.`,
+      stacks: ["Vue 3", "TypeScript", "deck.gl (WebGL)", "Mapbox GL", "Tailwind CSS", "Vitest"],
+      sourceCode: "https://github.com/Asi889/home-assignment-cyber",
+      liveWebsite: "https://home-assignment-cyber.vercel.app/",
+      imgSrc:
+        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1769297003/Screenshot_2026-01-25_012154_yfmqno.png",
+    },
+    {
       title: `Wordle in Hebrew`,
       body: `Wordle is a viral game I built during the hype of its popularity. It's my first project in Vue.js. I decided to build the app to work on my skills, learn new technologies - and I really enjoyed the development process.`,
       stacks: ["JavaScript", "Vue.js", "tailwind", "CSS"],
@@ -79,24 +106,7 @@ export default function projectData() {
       imgSrc:
         "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425068/Screenshot_2022-06-28_170410_qpikgu.png",
     },
-    {
-      title: `Carnival Cruse`,
-      body: `An end-to-end app developed using the React framework, Carnival Cruise exemplifies my expertise in JavaScript, React, Redux, and CSS. While I collaborated with a team on this project, my substantial contributions primarily involved debugging, refining, and implementing exciting new features to enhance the app's functionality and user experience.`,
-      stacks: ["JavaScript", "React", "Redux", "CSS"],
-      sourceCode: "https://github.com/Asi889/frontcarnivalwhitelabel",
-      liveWebsite: "https://betabundles.com/",
-      imgSrc:
-        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1639134535/carnival_nwjjst.png",
-    },
-    {
-      title: `Unicorn Design`,
-      body: `Unicorn Design stands out as an exceptional website I crafted for a valued web designer client. Leveraging the powerful combination of WordPress, PHP, JS, and Tailwind, I designed a remarkable online platform that perfectly encapsulates the client's creative vision. for this project i created a theme from scratch using carbon fileds which is a WordPress custom fileds library optimized for developers. A key aspect of my development approach is ensuring that all my projects are fully responsive, effortlessly adapting to diverse screens and devices. `,
-      stacks: ["PHP", "WordPress", "Javascript", "Tailwind", "CSS", "HTML"],
-      sourceCode: "",
-      liveWebsite: "https://uniqorn-design.adamshriki.co.il/",
-      imgSrc:
-        "https://res.cloudinary.com/dvdzjj8jo/image/upload/v1656425485/Screenshot_2022-06-28_171100_ev5rfw.png",
-    },
+   
     {
       title: `Vered Tours`,
       body: `Tailor made Full WordPress Theme - from UX, UI all the way to full-stack developmnet`,
